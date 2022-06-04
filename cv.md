@@ -4,11 +4,11 @@
 
 ### Contact
 
-	* Location: Russia, Krasnodar
-	* Phone: +7 918 167 20 61
-	* Telegram: [andre_efremov](https://t.me/andre_efremov)
-	* Email: effremov.andrey@gmail.com
-	* GitHub: [efremandre](https://github.com/efremandre)
+* Location: Russia, Krasnodar
+* Phone: +7 918 167 20 61
+* Telegram: [andre_efremov](https://t.me/andre_efremov)
+* Email: effremov.andrey@gmail.com
+* GitHub: [efremandre](https://github.com/efremandre)
 
 ### About My
 
@@ -18,8 +18,8 @@ I have no commercial experience in typesetting, only small training projects. Bu
 
 ### My Project
 
-	* [Project 1](https://efremandre.github.io/)
-	* [Project 2](https://efremandre.github.io/freebusinestheme/)
+* [Project 1](https://efremandre.github.io/)
+* [Project 2](https://efremandre.github.io/freebusinestheme/)
 
 ### Skills
 
@@ -31,20 +31,20 @@ I have no commercial experience in typesetting, only small training projects. Bu
 
 ### Code example
 
-	```
-	function sum(a, b) {
-		return a + b;
-	}
+```
+function sum(a, b) {
+	return a + b;
+}
 
-	let result = sum(1, 2);
-	alert( result );
-	```
+let result = sum(1, 2);
+alert( result );
+```
 
 ### Education
 
-	* College: Ust-Labinsk Social and Pedagogical College, Specialist in state and municipal administration
-	* Courses: TGU, "UI-designer 0 to PRO"
+* College: Ust-Labinsk Social and Pedagogical College, Specialist in state and municipal administration
+* Courses: TGU, "UI-designer 0 to PRO"
 
 ### Languages
-	* Russian - nativ
-	* English - A1 (in the process of studying)
+* Russian - nativ
+* English - A1 (in the process of studying)
