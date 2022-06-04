@@ -89,3 +89,14 @@ h6 {
 }
 
 /*--------------------*/
+
+.container {
+	max-width: 900px;
+	margin: 0 auto;
+}
+
+.main-title {
+	font-size: 30px;
+	line-height: 45px;
+	font-weight: 700;
+}
