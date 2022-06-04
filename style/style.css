@@ -1,6 +1,12 @@
 body {
-	font-family: 'Montserrat';
+	font-family: 'Montserrat', sans-serif;
 	font-weight: 400;
+}
+
+.wrapper {
+	min-height: 100%;
+	display: flex;
+	flex-direction: column;
 }
 
 .container {
@@ -10,6 +16,35 @@ body {
 
 .main-title {
 	font-size: 30px;
-	line-height: 45px;
 	font-weight: 700;
+	line-height: 45px;
+}
+
+/*HEADER*/
+.header {
+	height: 50px;
+	border: 1px solid #000;
+}
+
+/*MAIN*/
+.main {
+	flex: 1 1 auto;
+}
+
+.main__name {}
+
+.name {}
+
+.name__title {}
+
+.main-title {}
+
+.main__photo {}
+
+.main__img {}
+
+/*FOOTER*/
+.footer {
+	height: 50px;
+	border: 1px solid #000;
 }
