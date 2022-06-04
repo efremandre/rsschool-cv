@@ -2,6 +2,9 @@
 	--accent: #ffd739;
 	--dark-color: #232325;
 	--light-color: #ffffff;
+
+	--dark-text: #141414;
+	--light-text: #fff;
 }
 
 /*----------------*/
@@ -26,9 +29,14 @@ body {
 }
 
 .main-title {
-	font-size: 30px;
+	font-size: 40px;
+	line-height: 50px;
+	font-weight: 500;
+	text-transform: uppercase;
+}
+
+.accent-text {
 	font-weight: 700;
-	line-height: 45px;
 }
 
 /*HEADER*/
@@ -63,17 +71,49 @@ body {
 	/*чтобы футер прижать*/
 }
 
-.main__name {}
+.main__row {
+	display: flex;
+	justify-content: space-betweens;
+}
 
-.name {}
+.main__left-aside {
+	flex: 0 1 300px;
+	padding: 20px;
+	border: 1px solid #000;
+}
 
-.name__title {}
+.main__right-aside {
+	flex: 1 1 auto;
+	padding: 20px;
+	border: 1px solid #000;
+	color: var(--dark-text);
+}
 
-.main-title {}
+/*LEFT BLOCK*/
 
-.main__photo {}
 
-.main__img {}
+/*RIGHT BLOCK*/
+.name__heading {
+	position: relative;
+	margin-bottom: 30px;
+}
+
+.name__heading::before {
+	content: "";
+	position: absolute;
+	bottom: -15px;
+	left: 0;
+	width: 210px;
+	height: 3px;
+	background-color: var(--accent);
+}
+
+.name__subtitle {
+	font-size: 14px;
+	line-height: 20px;
+	font-weight: 500;
+	text-transform: uppercase;
+}
 
 /*FOOTER*/
 .footer {

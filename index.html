@@ -21,24 +21,40 @@
 				<nav class="header__menu menu">
 					<ul class="menu__list">
 						<li class="menu__item"><a href="#contact" class="menu__link">Contact</a></li>
-						<li class="menu__item"><a href="#aboutmy" class="menu__link">About My</a></li>
-						<li class="menu__item"><a href="#project" class="menu__link">My Project</a></li>
-						<li class="menu__item"><a href="#skills" class="menu__link">Skills</a></li>
-						<li class="menu__item"><a href="#code" class="menu__link">Code example</a></li>
 						<li class="menu__item"><a href="#education" class="menu__link">Education</a></li>
 						<li class="menu__item"><a href="#languages" class="menu__link">Languages</a></li>
+						<li class="menu__item"><a href="#aboutmy" class="menu__link">About My</a></li>
+						<li class="menu__item"><a href="#skills" class="menu__link">Skills</a></li>
+						<li class="menu__item"><a href="#project" class="menu__link">My Project</a></li>
+						<li class="menu__item"><a href="#code" class="menu__link">Code example</a></li>
 					</ul>
 				</nav>
 			</div>
 		</header>
 		<main class="main">
 			<div class="container">
-				<section class="main__name name">
-					<h1 class="name__title main-title">Andrey Efremov</h1>
-					<figure class="main__photo">
-						<img class="main__img" src="assets/photo.jpg" alt="Photo" width="300">
-					</figure>
-				</section>
+				<div class="main__row">
+					<div class="main__left-aside left-aside">
+						<section class="left-aside__photo photo section-general">
+							<div class="photo__block">
+								<img class="photo__img" src="assets/photo.jpg" alt="Photo" width="300">
+							</div>
+						</section>
+						<section class="left-aside__contact contact section-general" id="contact"></section>
+						<section class="left-aside__education education section-general" id="education"></section>
+						<section class="left-aside__languages languages section-general" id="languages"></section>
+					</div>
+					<div class="main__right-aside right-aside">
+						<section class="right-aside__name name section-general">
+							<h1 class="name__heading main-title">Andrey <br> <span class="accent-text">Efremov</span></h1>
+							<p class="name__subtitle">Frontend Developer (Beginer)</p>
+						</section>
+						<section class="right-aside__about-my about-my section-general" id="aboutmy"></section>
+						<section class="right-aside__skills skills section-general" id="skills"></section>
+						<section class="right-aside__my-project my-project section-general" id="project"></section>
+						<section class="right-aside__code code section-general" id="code"></section>
+					</div>
+				</div>
 			</div>
 		</main>
 		<footer class="footer"></footer>
