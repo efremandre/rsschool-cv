@@ -23,11 +23,11 @@ I have no commercial experience in typesetting, only small training projects. Bu
 
 ### Skills
 
-	* HTML
-	* CSS
-	* JavaScript (Basic)
-	* BEM Naming
-	* Git
+* HTML
+* CSS
+* JavaScript (Basic)
+* BEM Naming
+* Git
 
 ### Code example
 
