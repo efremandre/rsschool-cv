@@ -1,16 +1,26 @@
+:root {
+	--accent: #ffd739;
+	--dark-color: #232325;
+	--light-color: #ffffff;
+}
+
+/*----------------*/
 body {
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 400;
 }
 
+/*прижать футтер к низу страницы*/
 .wrapper {
 	min-height: 100%;
 	display: flex;
 	flex-direction: column;
 }
 
+/*----------------*/
+
 .container {
-	max-width: 900px;
+	max-width: 1000px;
 	margin: 0 auto;
 }
 
@@ -26,9 +36,20 @@ body {
 	border: 1px solid #000;
 }
 
+.header__menu {}
+
+.menu {}
+
+.menu__list {}
+
+.menu__item {}
+
+.menu__link {}
+
 /*MAIN*/
 .main {
 	flex: 1 1 auto;
+	/*чтобы футер прижать*/
 }
 
 .main__name {}
