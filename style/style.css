@@ -10,6 +10,8 @@
 /*----------------*/
 body {
 	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+	line-height: 20px;
 	font-weight: 400;
 	background-color: #f6f6f9;
 }
@@ -88,7 +90,7 @@ body {
 	position: absolute;
 	z-index: 99;
 	top: 0;
-	left: 0;
+	right: 0;
 	width: 100%;
 }
 
@@ -112,6 +114,7 @@ body {
 	display: inline-block;
 	position: relative;
 	padding: 10px;
+	font-weight: 500;
 	color: var(--dark-text);
 }
 
@@ -164,15 +167,17 @@ body {
 	z-index: 1;
 	flex: 0 1 300px;
 	padding: 30px 30px 0 30px;
+	border: 1px solid #000;
 }
 
 .main__right-aside {
 	position: relative;
 	z-index: 1;
 	flex: 1 1 auto;
-	padding: 30px 30px 0 60px;
+	padding: 30px 30px 0 30px;
 	color: var(--dark-text);
 	background-color: #fff;
+	border: 1px solid #000;
 }
 
 .main__left-aside::before,
@@ -228,32 +233,6 @@ body {
 	border-bottom: 1px solid rgba(255, 255, 255, 0.3);
 }
 
-/*RIGHT BLOCK*/
-/*NAME*/
-.name__heading {
-	position: relative;
-	display: inline-block;
-	margin: 68px 0 30px 0;
-}
-
-.name__heading::before {
-	content: "";
-	position: absolute;
-	bottom: -15px;
-	left: 0;
-	width: 100%;
-	height: 3px;
-	background-color: var(--accent);
-}
-
-.name__subtitle {
-	margin-bottom: 170px;
-	font-size: 14px;
-	line-height: 20px;
-	font-weight: 500;
-	text-transform: uppercase;
-}
-
 /*CONTACT*/
 .contact__list {}
 
@@ -298,11 +277,105 @@ body {
 .education__item {}
 
 /*LANGUEGE*/
-.languages__title {}
-
 .languages__list {}
 
 .languages__item {}
+
+/*RIGHT BLOCK*/
+/*NAME*/
+.name__heading {
+	position: relative;
+	display: inline-block;
+	margin: 68px 0 30px 0;
+}
+
+.name__heading::before {
+	content: "";
+	position: absolute;
+	bottom: -15px;
+	left: 0;
+	width: 100%;
+	height: 3px;
+	background-color: var(--accent);
+}
+
+.name__subtitle {
+	margin-bottom: 170px;
+	font-size: 14px;
+	line-height: 20px;
+	font-weight: 500;
+	text-transform: uppercase;
+}
+
+/*ABOUT ME*/
+.about-me__text {
+	margin-bottom: 10px;
+	font-size: 18px;
+	line-height: 24px;
+	text-indent: 25px;
+}
+
+.about-me__text:last-child {
+	margin-bottom: 0;
+}
+
+/*SKILLS*/
+.skills__list {}
+
+.skills__item {}
+
+/*MY PROJECT*/
+.my-project__row {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.my-project__list {
+	display: flex;
+	justify-content: space-between;
+	max-width: 820px;
+	margin: 0 -10px;
+}
+
+.my-project__item {
+	padding: 0 10px;
+}
+
+.my-project__link {
+	display: inline-block;
+	max-width: 400px;
+	height: 300px;
+	overflow: hidden;
+	border: 3px solid var(--accent);
+	transition: all 0.3s ease;
+}
+
+.my-project__preview {
+	width: 100%;
+}
+
+.my-project__link:hover {
+	transform: scale(1.1);
+}
+
+/*CODE*/
+.code__items {
+	margin-bottom: 30px;
+	background-color: rgba(255, 215, 57, 0.2);
+}
+
+.code__purple {
+	color: #530256;
+}
+
+.code__red {
+	color: #B80251;
+}
+
+.code__blue {
+	color: #0a16f4;
+}
 
 /*FOOTER*/
 .footer {}
