@@ -34,25 +34,130 @@
 		<main class="main">
 			<div class="container">
 				<div class="main__row">
+
+					<!-- LEFT -->
 					<div class="main__left-aside left-aside">
+						<!-- PHOTO -->
 						<section class="left-aside__photo photo section-general">
 							<div class="photo__block">
-								<img class="photo__img" src="assets/photo.jpg" alt="Photo" width="300">
+								<img class="photo__img" src="assets/image/photo.jpg" alt="Photo" width="300">
 							</div>
 						</section>
-						<section class="left-aside__contact contact section-general" id="contact"></section>
-						<section class="left-aside__education education section-general" id="education"></section>
-						<section class="left-aside__languages languages section-general" id="languages"></section>
+
+						<!-- CONTACT -->
+						<section class="left-aside__contact contact section-general" id="contact">
+							<h2 class="contact__title subtitle">Contact</h2>
+							<ul class="contact__list">
+								<li class="contact__item">
+									<span class="accent-text">Location: </span> Russia, Krasnodar
+								</li>
+								<li class="contact__item">
+									<span class="accent-text">Phone: </span><a href="tel:79181672061" target="_blank"
+										class="contact__link">+7 918
+										167 20
+										61</a>
+								</li>
+								<li class="contact__item">
+									<span class="accent-text">Telegram: </span><a href="https://t.me/andre_efremov" target="_blank"
+										class="contact__link">andre_efremov</a>
+								</li>
+								<li class="contact__item">
+									<span class="accent-text">Email: </span><a href="mailto:effremov.andrey@gmail.com" target="_blank"
+										class="contact__link">effremov.andrey@gmail.com</a>
+								</li>
+								<li class="contact__item">
+									<span class="accent-text">GitHub: </span><a href="https://github.com/efremandre/" target="_blank"
+										class="contact__link">efremandre</a>
+								</li>
+							</ul>
+						</section>
+
+						<!-- EDUCATION -->
+						<section class="left-aside__education education section-general" id="education">
+							<h2 class="education__title subtitle">Education</h2>
+							<ul class="education__list">
+								<li class="education__item"><span class="accent-text">College: </span>Ust-Labinsk Social and
+									Pedagogical College, Specialist in state and municipal administration</li>
+								<li class="education__item"><span class="accent-text">Courses: </span>TGU, "UI-designer 0 to
+									PRO"
+								</li>
+							</ul>
+						</section>
+
+						<!-- LANGUAGE -->
+						<section class="left-aside__languages languages section-general" id="languages">
+							<h2 class="languages__title subtitle">Languages</h2>
+							<ul class="languages__list">
+								<li class="languages__item">
+									<sapn class="accent-text">Russian</sapn> &ndash; nativ
+								</li>
+								<li class="languages__item">
+									<sapn class="accent-text">English</sapn> &ndash; A1 (in the process of studying)
+								</li>
+							</ul>
+						</section>
 					</div>
+
+					<!-- RIGHT -->
 					<div class="main__right-aside right-aside">
+						<!-- NAME -->
 						<section class="right-aside__name name section-general">
 							<h1 class="name__heading main-title">Andrey <br> <span class="accent-text">Efremov</span></h1>
 							<p class="name__subtitle">Frontend Developer (Beginer)</p>
 						</section>
-						<section class="right-aside__about-my about-my section-general" id="aboutmy"></section>
-						<section class="right-aside__skills skills section-general" id="skills"></section>
-						<section class="right-aside__my-project my-project section-general" id="project"></section>
-						<section class="right-aside__code code section-general" id="code"></section>
+
+						<!-- ABOUT MY -->
+						<section class="right-aside__about-my about-my section-general" id="aboutmy">
+							<h2 class="about-my__title subtitle">About My</h2>
+							<p class="about-my__text">I have very few jobs, I'm just at the beginning of the path. But I already have
+								an understanding that this path will be passed more quickly on real tasks.</p>
+
+							<p class="about-my__text">I have no commercial experience in typesetting, only small training projects.
+								But I make up for this with extensive experience in various industries and areas, a responsible approach
+								to work, a clear understanding of what a deadline and "have to" are, the ability to work in a team, a
+								black belt in soft-skills, and a huge potential for learning new things.</p>
+						</section>
+
+						<!-- SKILLS -->
+						<section class="right-aside__skills skills section-general" id="skills">
+							<h2 class="skills__title subtitle">Skills</h2>
+							<ul class="skills__list">
+								<li class="skills__item">HTML</li>
+								<li class="skills__item">CSS</li>
+								<li class="skills__item">JavaScript (Basic)</li>
+								<li class="skills__item">BEM Naming</li>
+								<li class="skills__item">Git</li>
+							</ul>
+						</section>
+
+						<!-- MY PROJECT -->
+						<section class="right-aside__my-project my-project section-general" id="project">
+							<h3 class="my-project__title subtitle">My Project</h3>
+							<ul class="my-project__list">
+								<li class="my-project__item"><a href="https://efremandre.github.io/" target="_blank"
+										class="my-project__link"><img src="assets/image/project1.jpg" alt="Project 1"
+											class="my-project__preview" width="300"></a></li>
+								<li class="my-project__item"><a href="https://efremandre.github.io/freebusinestheme/" target="_blank"
+										class="my-project__link"><img src="assets/image/project2.jpg" alt="Project 2"
+											class="my-project__preview" width="300"></a></li>
+							</ul>
+						</section>
+
+						<!-- CODE -->
+						<section class="right-aside__code code section-general" id="code">
+							<h3 class="code__title subtitle">Code example</h3>
+							<pre>
+								<code data-language = "javascript">
+	function sum(a, b) {
+	  return a + b;
+	}
+									
+	let result = sum(1, 2);
+	alert( result );
+								</code>
+							</pre>
+
+						</section>
 					</div>
 				</div>
 			</div>
