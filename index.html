@@ -18,6 +18,9 @@
 	<div class="wrapper">
 		<header class="header">
 			<div class="container">
+				<div class="header__burger">
+					<span></span>
+				</div>
 				<nav class="header__menu menu">
 					<ul class="menu__list">
 						<li class="menu__item"><a href="#contact" class="menu__link">Contact</a></li>
@@ -40,68 +43,77 @@
 						<!-- PHOTO -->
 						<div class="left-aside__photo photo section-general">
 							<div class="photo__block">
-								<img class="photo__img" src="assets/image/photo.jpg" alt="Photo" width="300">
+								<img class="photo__img" src="assets/image/photo.jpg" alt="Photo" max-width="300">
 							</div>
+							<!-- FOR ADAPTIVE -->
+							<section class="right-aside__name right-aside__name_hiden name">
+								<h1 class="name__heading main-title">Andrey <br> <span class="accent-text">Efremov</span></h1>
+								<p class="name__subtitle">Frontend Developer (Beginer)</p>
+							</section>
 						</div>
 
-						<!-- CONTACT -->
-						<section class="left-aside__contact contact section-general" id="contact">
-							<h2 class="contact__title subtitle">Contact</h2>
-							<ul class="contact__list">
-								<li class="contact__item">
-									<span class="accent-text">Location: <br></span> Russia, Krasnodar
-								</li>
-								<li class="contact__item">
-									<span class="accent-text">Phone: <br></span><a href="tel:79181672061" target="_blank"
-										class="contact__link hover__link">+7 918
-										167 20
-										61</a>
-								</li>
-								<li class="contact__item">
-									<span class="accent-text">Telegram: <br></span><a href="https://t.me/andre_efremov" target="_blank"
-										class="contact__link hover__link">andre_efremov</a>
-								</li>
-								<li class="contact__item">
-									<span class="accent-text">Email: <br></span><a href="mailto:effremov.andrey@gmail.com" target="_blank"
-										class="contact__link hover__link">effremov.andrey@gmail.com</a>
-								</li>
-								<li class="contact__item">
-									<span class="accent-text">GitHub: <br></span><a href="https://github.com/efremandre/" target="_blank"
-										class="contact__link hover__link">efremandre</a>
-								</li>
-							</ul>
-						</section>
+						<div class="main__content-block">
 
-						<!-- EDUCATION -->
-						<section class="left-aside__education education section-general" id="education">
-							<h2 class="education__title subtitle">Education</h2>
-							<ul class="education__list">
-								<li class="education__item"><span class="accent-text">College: <br></span>Ust-Labinsk Social and
-									Pedagogical College, Specialist in state and municipal administration</li>
-								<li class="education__item"><span class="accent-text">Courses: <br></span>TGU, "UI-designer 0 to
-									PRO"
-								</li>
-							</ul>
-						</section>
+							<!-- CONTACT -->
+							<section class="left-aside__contact contact section-general" id="contact">
+								<h2 class="contact__title subtitle">Contact</h2>
+								<ul class="contact__list">
+									<li class="contact__item">
+										<span class="accent-text">Location: <br></span> Russia, Krasnodar
+									</li>
+									<li class="contact__item">
+										<span class="accent-text">Phone: <br></span><a href="tel:79181672061" target="_blank"
+											class="contact__link hover__link">+7 918
+											167 20
+											61</a>
+									</li>
+									<li class="contact__item">
+										<span class="accent-text">Telegram: <br></span><a href="https://t.me/andre_efremov" target="_blank"
+											class="contact__link hover__link">andre_efremov</a>
+									</li>
+									<li class="contact__item">
+										<span class="accent-text">Email: <br></span><a href="mailto:effremov.andrey@gmail.com"
+											target="_blank"
+											class="contact__link contact__link_small hover__link">effremov.andrey@gmail.com</a>
+									</li>
+									<li class="contact__item">
+										<span class="accent-text">GitHub: <br></span><a href="https://github.com/efremandre/"
+											target="_blank" class="contact__link hover__link">efremandre</a>
+									</li>
+								</ul>
+							</section>
 
-						<!-- LANGUAGE -->
-						<section class="left-aside__languages languages section-general" id="languages">
-							<h2 class="languages__title subtitle">Languages</h2>
-							<ul class="languages__list">
-								<li class="languages__item">
-									<span class="accent-text">Russian</span> &ndash; nativ
-								</li>
-								<li class="languages__item">
-									<span class="accent-text">English</span> &ndash; A1 (in the process of studying)
-								</li>
-							</ul>
-						</section>
+							<!-- EDUCATION -->
+							<section class="left-aside__education education section-general" id="education">
+								<h2 class="education__title subtitle">Education</h2>
+								<ul class="education__list">
+									<li class="education__item"><span class="accent-text">College: <br></span>Ust-Labinsk Social and
+										Pedagogical College, Specialist in state and municipal administration</li>
+									<li class="education__item"><span class="accent-text">Courses: <br></span>TGU, "UI-designer 0 to
+										PRO"
+									</li>
+								</ul>
+							</section>
+
+							<!-- LANGUAGE -->
+							<section class="left-aside__languages languages section-general" id="languages">
+								<h2 class="languages__title subtitle">Languages</h2>
+								<ul class="languages__list">
+									<li class="languages__item">
+										<span class="accent-text">Russian</span> &ndash; nativ
+									</li>
+									<li class="languages__item">
+										<span class="accent-text">English</span> &ndash; A1 (in the process of studying)
+									</li>
+								</ul>
+							</section>
+						</div>
 					</div>
 
 					<!-- RIGHT -->
 					<div class="main__right-aside right-aside">
 						<!-- NAME -->
-						<section class="right-aside__name name section-general">
+						<section class="right-aside__name right-aside__name_view name section-general">
 							<h1 class="name__heading main-title">Andrey <br> <span class="accent-text">Efremov</span></h1>
 							<p class="name__subtitle">Frontend Developer (Beginer)</p>
 						</section>
@@ -170,7 +182,7 @@
 					<li class="footer__item"><a href="https://github.com/efremandre" target="_blank"
 							class="footer__link hover__link">My
 							Github</a></li>
-					<li class="footer__item"><a href="https://rs.school/js-stage0/" target="_blank" class="footer__link"><svg
+					<li class="footer__item"><a href="https://rs.school/js/" target="_blank" class="footer__link"><svg
 								class="rsschool" width="80" height="29" viewBox="0 0 80 29" fill="none"
 								xmlns="http://www.w3.org/2000/svg">
 								<path
@@ -194,6 +206,8 @@
 			</div>
 		</footer>
 	</div>
+	<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+	<script src="./js/js.js"></script>
 </body>
 
 </html>
