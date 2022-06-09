@@ -459,13 +459,15 @@ body {
 }
 
 /*PHOTO*/
-.left-aside__photo {
-	margin-bottom: 30px;
-}
-
 @media (max-width: 1000px) {
 	.left-aside__photo {
 		display: flex;
+	}
+}
+
+@media (max-width: 800px) {
+	.left-aside__photo {
+		margin-bottom: 30px;
 	}
 }
 
